@@ -20,9 +20,7 @@ from datetime import datetime, timedelta
 from anthropic import Anthropic
 from pathlib import Path
 
-os.environ['ANTHROPIC_API_KEY'] = (
-    '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'
-)
+
 
 st.set_page_config(
     page_title="순욱",
